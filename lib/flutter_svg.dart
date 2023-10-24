@@ -20,7 +20,7 @@ class FlutterSvgPage extends StatelessWidget {
               svgAssets: [
                 // This is the way you use SvgPicture Asset
                 SvgPicture.asset(AppSvg.home),
-                SvgPicture.asset(AppSvg.profile)
+                SvgPicture.asset(AppSvg.profile, )
               ]),
           const Divider(
             height: 10,
